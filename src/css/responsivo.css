@@ -1,0 +1,200 @@
+@media (max-width: 1024px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 2px;
+    }
+
+    .cabecalho .menu li a {
+        padding: 15px;
+    }
+
+    .cabecalho .informacoes {
+        padding: 30px;
+    }
+
+    .home .informacoes {
+        padding: 60px 80px 80px 80px;
+        width: 60%;
+    }
+
+    .home .informacoes .texto {
+        font-size: 18px;
+    }
+
+    .home .informacoes img {
+        max-width: 130px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 40px;
+    }
+
+    .compre-ja .cartao{
+        width: 70%;
+    }
+}
+
+@media (max-width: 925px){
+
+    .home .informacoes {
+        padding: 10px 80px 80px 80px;
+    }
+
+    .home .informacoes .texto{
+        width: 100% !important;
+    }
+
+    .home .informacoes {
+        padding: 40px 80px 80px 80px;
+    }
+
+    .home .informacoes img {
+        width: 100px;
+    }
+
+    .compre-ja {
+        padding: 30px;
+    }
+
+    .compre-ja .cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 36px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 18px;
+    }
+
+    .btn-comprar {
+        padding: 10px 20px;
+    }
+
+    .compre-ja .informacoes h3{
+        font-size: 35px;
+    }
+
+    .compre-ja .informacoes .plataformas {
+        flex-direction: column;
+    }
+
+    .btn-plataforma {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .btn-comprar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .cabecalho .logo h1 {
+        margin-top: 4%;
+    }
+
+    .cabecalho .logo h1 a {
+        font-size: 24px;
+    }    
+
+    .home .informacoes {
+        padding-top: 20px;
+        padding-left: 60px;
+        width: 70%;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 32px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 17px;
+    }
+
+    .compre-ja {
+        padding: 30px;
+    }
+
+    .compre-ja .cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .informacoes h3{
+        font-size: 35px;
+    }
+
+    .compre-ja .informacoes .plataformas {
+        flex-direction: column;
+    }
+
+    .btn-plataforma {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .btn-comprar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 567px){
+
+    .cabecalho .logp h1 {
+        font-size: 20px;
+    }
+
+    .home .informacoes {
+        width: 80%;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 425px){
+
+    .home .informacoes {
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 30px;
+    }
+
+    .home  .informacoes .texto {
+        font-size: 16px;
+    }
+    .home::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4)  100%, transparent 65%);
+    }
+    .compre-ja .cartao .capa-do-jogo{
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 352px) {
+
+    .cabecalho .logo h1 {
+        margin-top: 6%;
+    }
+
+    .cabecalho .logo h1 a {
+        font-size: 18px;
+    }
+
+    .home .informacoes {
+        width: 95%;
+    }
+    .home .informacoes img{
+        width: 80px;
+    }
+    .home .informacoes .lista-de-jogos {
+        gap: 20px;
+    }
+}
